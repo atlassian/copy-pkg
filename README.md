@@ -29,8 +29,8 @@ copyPkg.sync('package.json', 'dist/package.json', {
 **Options**
 
 - `opts.normalize` (`--normalize`, `-n`) - Normalize the package.json contents (boolean)
-- `opts.ignore` (`--ignore`, `-i`) - Select keys to copy (array)
-- `opts.only` (`--only`, `-o`) - Select keys not to copy (array)
+- `opts.ignore` (`--ignore`, `-i`) - Select keys not to copy (array)
+- `opts.only` (`--only`, `-o`) - Select keys to copy (array)
 
 ## Related
 
