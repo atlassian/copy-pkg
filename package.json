@@ -1,6 +1,6 @@
 {
   "name": "copy-pkg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Copy a package.json",
   "main": "index.js",
   "repository": "https://github.com/thejameskyle/copy-pkg",
