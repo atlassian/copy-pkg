@@ -51,3 +51,12 @@ test('ignore', () => {
     expect(pkg).not.toHaveProperty('name');
   });
 });
+
+test('sync', () => {
+  let tmpDir = createTempDirSync();
+  let tmpPath = path.join(tmpDir, 'package.json');
+  copyPkg.sync(PKG_PATH, tmpPath);
+  return readPkg(tmpPath, { normalize: false }).then(pkg => {
+    expect(pkg).toEqual(PKG);
+  });
+});
