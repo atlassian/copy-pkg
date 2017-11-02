@@ -1,0 +1,39 @@
+{
+  "name": "copy-pkg",
+  "version": "0.0.0",
+  "description": "Copy a package.json",
+  "main": "index.js",
+  "repository": "https://github.com/thejameskyle/copy-pkg",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "bin.js"
+  ],
+  "keywords": [
+    "copy",
+    "package.json",
+    "package",
+    "pkg",
+    "select",
+    "filter",
+    "only",
+    "ignore"
+  ],
+  "bin": {
+    "copy-pkg": "./bin.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "read-pkg": "^2.0.0",
+    "write-pkg": "^3.1.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.58.0",
+    "jest": "^21.2.1",
+    "jest-fixtures": "^0.6.0"
+  }
+}
