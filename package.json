@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Copy a package.json",
   "main": "index.js",
-  "repository": "https://github.com/thejameskyle/copy-pkg",
+  "repository": "https://github.com/atlassian/copy-pkg",
   "author": "James Kyle <me@thejameskyle.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "files": [
     "index.js",
     "bin.js"
