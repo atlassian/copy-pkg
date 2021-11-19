@@ -1,6 +1,6 @@
 {
   "name": "copy-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy a package.json",
   "main": "index.js",
   "repository": "https://github.com/atlassian/copy-pkg",
