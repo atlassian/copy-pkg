@@ -1,10 +1,10 @@
 {
-  "name": "copy-pkg",
+  "name": "@atlassian/copy-pkg",
   "version": "1.0.1",
   "description": "Copy a package.json",
   "main": "index.js",
   "repository": "https://github.com/atlassian/copy-pkg",
-  "author": "James Kyle <me@thejameskyle.com>",
+  "author": "Keno Cabazares <kcabazares@atlassian.com>",
   "license": "Apache-2.0",
   "files": [
     "index.js",
